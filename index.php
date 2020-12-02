@@ -93,7 +93,7 @@ $productos=$operacionBD->consultarDatos($consultaSQL);
         <?php if($producto["plataforma"]=="Xbox"):?>
           <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="<?php echo($producto["img"])?>" class="img-fluid" alt="imagen">
+                    <img src="<?php echo($producto["img"])?>" height="350" width="350" alt="imagen">
                     <div class="card-body">
                         <h5 class="card-title text-center"><?php echo($producto["nJuego"])?></h5>
                         <h5 class="card-title">plataforma: <?php echo($producto["plataforma"])?></h5>
@@ -126,7 +126,7 @@ $productos=$operacionBD->consultarDatos($consultaSQL);
         <?php if($producto["plataforma"]=="Playstation"):?>
           <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="<?php echo($producto["img"])?>" class="img-fluid" alt="imagen">
+                    <img src="<?php echo($producto["img"])?>" height="350" width="350" alt="imagen">
                     <div class="card-body">
                         <h5 class="card-title text-center"><?php echo($producto["nJuego"])?></h5>
                         <h5 class="card-title">plataforma: <?php echo($producto["plataforma"])?></h5>
@@ -159,7 +159,7 @@ $productos=$operacionBD->consultarDatos($consultaSQL);
         <?php if($producto["plataforma"]=="Nintendo"):?>
           <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="<?php echo($producto["img"])?>" class="img-fluid" alt="imagen">
+                    <img src="<?php echo($producto["img"])?>" height="350" width="350" alt="imagen">
                     <div class="card-body">
                         <h5 class="card-title text-center"><?php echo($producto["nJuego"])?></h5>
                         <h5 class="card-title">plataforma: <?php echo($producto["plataforma"])?></h5>
@@ -192,7 +192,7 @@ $productos=$operacionBD->consultarDatos($consultaSQL);
         <?php if($producto["plataforma"]=="Pc"):?>
           <div class="col mb-4">
                 <div class="card h-100">
-                   <img src="<?php echo($producto["img"])?>" class="img-fluid" alt="imagen">
+                   <img src="<?php echo($producto["img"])?>" height="350" width="350" alt="imagen">
                     <div class="card-body">
                         <h5 class="card-title text-center"><?php echo($producto["nJuego"])?></h5>
                         <h5 class="card-title">plataforma: <?php echo($producto["plataforma"])?></h5>

@@ -1,0 +1,39 @@
+.footer{
+  text-align: center;
+  background-color: rgb(54, 48, 48);
+}
+.footer_index{
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+.fta{
+  background-color: #c1c7c1;
+}
+.play{
+  background-color: #4e78c7;
+}
+.nintendo{
+  background-color: #d1392f;
+}
+.xbox{
+  background-color: #5cb35c;
+}
+.pc{
+  background-color: rgb(54, 50, 50);
+}
+.titfooter{
+  font-size: 22px;
+  text-align: left;
+  color: white;
+}
+
+.cosmosnav{
+  width:50px;
+    height:50px;
+    border:2px solid rgb(131, 116, 116);
+    border-radius: 25px;
+}
+.tarjetas{
+  font-size: 200px;
+}
